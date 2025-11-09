@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: ' https://github.com/hwafa/timesheetproject.git'
+                git branch: 'main', url: 'https://github.com/Achref-Neji-07/Devops.git'
             }
         }
 
